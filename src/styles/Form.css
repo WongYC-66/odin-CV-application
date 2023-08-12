@@ -1,0 +1,63 @@
+.leftWindow {
+    border: 1px solid black;
+    max-width: 50%;
+    height: 100%;
+}
+
+.leftWindow h3 {
+    color: white;
+    background-color: #000000;
+}
+
+form {
+    /* border: 1px solid black; */
+    max-width: 500px;
+    padding: 30px;
+    /*  */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.tab1 label {
+    font-size: 0.7rem;
+}
+
+form>input,
+label>input {
+    width: 45%;
+}
+
+#submitBtn {
+    padding: 20px 30%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 15px;
+    border: 3px solid grey;
+    font-weight: 600;
+}
+
+#submitBtn:hover,
+.buttonDiv button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    background-color: #767676;
+    color: white;
+    transition: all 0.15s ease-in-out;
+
+}
+
+.buttonDiv {
+    padding: 0 0 15px 0;
+    /*  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.buttonDiv button {
+    padding: 1% 10%;
+    border-radius: 15px;
+}

@@ -1,15 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import GeneralForm from './components/GeneralForm.jsx'
-import EduForm from './components/EduForm.jsx'
-import WorkForm from './components/WorkForm.jsx'
+import App from './components/App.jsx'
 import './index.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <GeneralForm />
-    <EduForm />
-    <WorkForm />
+    <header>CV Creator</header>
+    <main> <App/> </main>
+    <footer>Designed and created by YC Wong 2023</footer>
   </React.StrictMode>,
 )
