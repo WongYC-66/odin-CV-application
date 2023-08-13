@@ -1,10 +1,19 @@
 import '../styles/PrintView.css'
 import profileImg from '../img/captain.png'
+import dateFormat from "dateformat";
 
 export default function ({ formContent }) {
     // console.log(formContent)
     const workArray = formContent.workList
     const eduArray = formContent.educationList
+    workArray.forEach(x => {
+        x.startDate = dateFormat(x.startDate, "mmm yyyy")
+        x.endDate = dateFormat(x.endDate, "mmm yyyy")
+    })
+    eduArray.forEach(x => {
+        x.startDate = dateFormat(x.startDate, "mmm yyyy")
+        x.endDate = dateFormat(x.endDate, "mmm yyyy")
+    })
     // create photo
     const imgUrl = formContent.file === 'default' ? profileImg
         : formContent.file ? URL.createObjectURL(formContent.file)
