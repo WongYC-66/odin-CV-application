@@ -1,7 +1,7 @@
 .leftWindow {
     border: 1px solid black;
-    max-width: 50%;
-    height: 100%;
+    width: 50vw;
+    /* height: 100vh; */
 }
 
 .leftWindow h3 {
@@ -29,7 +29,12 @@ label>input {
     width: 45%;
 }
 
-#submitBtn {
+textarea {
+    resize: none;
+}
+
+#submitBtn, 
+#resetBtn {
     padding: 20px 30%;
     margin: 0 auto;
     display: block;
@@ -38,8 +43,16 @@ label>input {
     font-weight: 600;
 }
 
+#resetBtn {
+    color: red;
+    border: 3px solid red;
+    margin-top: 15px;
+    padding: 10px 15%;
+}
+
 #submitBtn:hover,
-.buttonDiv button:hover {
+.buttonDiv button:hover,
+#resetBtn:hover {
     cursor: pointer;
     transform: translateY(-2px);
     background-color: #767676;

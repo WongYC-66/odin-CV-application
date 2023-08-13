@@ -14,8 +14,6 @@
       width: clamp(600px, 100%, 1200px);
       margin: 0 auto;
       box-shadow: 5px 5px 5px 1.5px rgba(0, 0, 0, 0.75);
-      /* width: 100vw; */
-      height: 100vh;
       display: flex;
       flex-direction: column;
   }
