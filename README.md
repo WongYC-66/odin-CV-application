@@ -5,7 +5,7 @@ A web app where user create an CV by filling in information. Created with react,
 ![photo](CV-creator.png)
 
 ## Live demo
-- https://cv-application-ycw.netlify.app/
+- https://odin-cv-creator.netlify.app/
 
 ## Tech stack 
 -  React / Javascript
