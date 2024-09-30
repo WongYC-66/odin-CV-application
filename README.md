@@ -1,8 +1,19 @@
-# React + Vite
+# CV Creator / odin-cv-application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app where user create an CV by filling in information. Created with react, vite.
 
-Currently, two official plugins are available:
+![photo](CV-creator.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live demo
+- https://cv-application-ycw.netlify.app/
+
+## Tech stack 
+-  React / Javascript
+
+## Source
+- https://github.com/WongYC-66/odin-CV-application
+
+## Installation
+1. npm install 
+2. npm run dev
+
